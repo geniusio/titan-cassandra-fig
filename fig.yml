@@ -11,7 +11,7 @@ titan:
   ports:
     - "31182:8182"
     - "8183"
-    - "8184"
+    - "31184:8184"
   links:
     - cassandra
     - elasticsearch
